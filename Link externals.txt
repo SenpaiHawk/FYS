@@ -1,0 +1,24 @@
+link stylesheet:
+
+<link rel="stylesheet" type="text/css" href="sheetname.css">
+
+
+link stylesheet in relative folder:
+
+<link rel="stylesheet" type="text/css" href="css/sheetname.css">
+
+
+link js:
+
+<script src="myscripts.js"></script>
+
+
+link js in relative folder:
+
+<script src="js/myscripts.js"></script>
+
+
+Basis:
+
+javascript in buttom of html (becouse they take time to load)
+css styling in start of html (becouse the page looks best with styling first)
