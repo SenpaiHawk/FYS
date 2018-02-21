@@ -1,0 +1,9 @@
+.center{
+  text-align: center;
+}
+h1, p{
+  font-family: monospace;
+}
+.box{
+  border-style: double;
+}
