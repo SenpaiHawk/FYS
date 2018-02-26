@@ -7,3 +7,6 @@ h1, p{
 .box{
   border-style: double;
 }
+body {
+    background-image: url("wallpaper.jpg");
+}
