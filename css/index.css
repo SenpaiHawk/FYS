@@ -6,8 +6,12 @@ h1, p{
 }
 .box{
   border-style: double;
-  background-color: white;
+  background-color: #a7cae3;
 }
 body {
     background-image: url("../images/wallpaper.jpg");
+}
+.column1 {
+  width: 33.3%;
+  text-align: center;
 }
