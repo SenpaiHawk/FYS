@@ -20,5 +20,5 @@ link js in relative folder:
 
 Basis:
 
-javascript in buttom of html (becouse they take time to load)
-css styling in start of html (becouse the page looks best with styling first)
+javascript in buttom of html (because they take time to load)
+css styling in start of html (because the page looks best with styling first)
