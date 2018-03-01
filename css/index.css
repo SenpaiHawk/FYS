@@ -13,9 +13,9 @@ body {
 }
 .column1 {
   width: 100%;
-  text-align: left;
+  text-align: middle;
 }
 .column2 {
-  width: 50%;
+  width: 100%;
   text-align: center;
 }
