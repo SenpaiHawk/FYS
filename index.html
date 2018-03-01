@@ -7,7 +7,8 @@
 </head>
 <body>
 	<div>
-		<a style="text-align:left;"href="about.html">About</a> <a> | </a> <a href="">Gamelist</a>
+		<a style="text-align:left;"href="about.html">About</a> <a> | </a> <a href="gamelist.html">Gamelist</a>
+		<input type="button" onclick="gamelist();" value="click ths">
 		<h1 class="center box">Fuck Yeah Server<a href=""></h1>
 	</div>
 	<div class="column2">
@@ -25,4 +26,23 @@
 	</div>
 </body>
 </html>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+function gamelist(){
+	$.ajax({
+          'type': 'GET',
+          'url': 'gamelist.html',
+          'success': function(response)
+           {
+               console.log(response);
+							 $("html").html(response);
+           },
+           'error': function(jqXHR, textStatus, errorThrown)
+           {
+             console.log('Error on saving appointment:', jqXHR, textStatus, errorThrown);
+           }
+        });
+}
+
+</script>
 <script src="js/index.js"></script>
