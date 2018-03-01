@@ -1,0 +1,7 @@
+body { /* Baggrund */
+  background-image: url("../images/wallpaper.jpg");
+}
+.box{
+  border-style: double;
+  background-color: white;
+}

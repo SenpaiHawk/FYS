@@ -1,0 +1,11 @@
+#box{
+  border-style: double;
+  background-color: #a7cae3;
+}
+body { /* Baggrund */
+  background-image: url("../images/wallpaper.jpg");
+}
+#column4{
+  width: 33.3%
+  text-align: left;
+}
