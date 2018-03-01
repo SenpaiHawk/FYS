@@ -1,3 +1,4 @@
+/* Index.html */
 .center{
   text-align: center;
 }
@@ -13,9 +14,22 @@ body {
 }
 .column1 {
   width: 100%;
-  text-align: middle;
+  text-align: center;
 }
 .column2 {
   width: 100%;
   text-align: center;
 }
+
+ /* Gamelist.html */
+ #box{
+   border-style: double;
+   background-color: #a7cae3;
+ }
+ body {
+     background-image: url("../images/wallpaper.jpg");
+ }
+ #column4{
+   width: 33.3%
+   text-align: left;
+ }
