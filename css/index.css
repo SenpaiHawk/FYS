@@ -12,10 +12,10 @@ body {
     background-image: url("../images/wallpaper.jpg");
 }
 .column1 {
-  width: 33.3%;
+  width: 100%;
   text-align: left;
 }
 .column2 {
-  width: 33.3%;
+  width: 50%;
   text-align: center;
 }
