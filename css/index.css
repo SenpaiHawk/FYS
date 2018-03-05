@@ -8,6 +8,10 @@ h1, p{
   border-style: double;
   background-color: #ffb9ed;
 }
+.box1{
+  border-style: single;
+  background-color: #ffb9ed;
+}
 body { /* Baggrund */
   background-image: url("../images/wallpaper.jpg");
 }
